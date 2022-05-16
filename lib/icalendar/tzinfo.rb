@@ -59,7 +59,7 @@ module Icalendar
     def offset_abbreviation
       offset.abbreviation.to_s
     end
-
+    
     def rrule
       start = local_start.to_datetime
       # this is somewhat of a hack, but seems to work ok

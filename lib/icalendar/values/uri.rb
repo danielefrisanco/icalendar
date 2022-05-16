@@ -13,6 +13,10 @@ module Icalendar
       def value_ical
         value.to_s
       end
+
+      def self.value_name
+        'URI'
+      end
     end
 
   end
